@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos-form.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+  </head>
+  <body>
+    <!---Cabecera-->
+    <header class="header">
+      <img src="img/logo.png" alt="logo" />
+      <h1 class="headertittle">El closet de Legive</h1>
+    </header>
+    <main class="productos">
+      <section class="listaproductos">
+        <h1>MIS PRODUCTOS:</h1>
+        <ul class="card-list" alt="Productos" data-lista>
+          <li class="card">
+            <img
+              class="img-product"
+              src="https://i.ebayimg.com/thumbs/images/g/usgAAOSwqCdey-61/s-l640.jpg"
+              alt=""
+            />
+            <p>Sueter</p>
+            <div class="card-sub">
+              <p>$10.00</p>
+
+              <img class="icon" src="img/trash.png" alt="" data-eliminar />
+            </div>
+          </li>
+           <li class="card">
+            <img
+              class="img-product"
+              src="https://i.ebayimg.com/thumbs/images/g/usgAAOSwqCdey-61/s-l640.jpg"
+              alt=""
+            />
+            <p>Sueter</p>
+            <div class="card-sub">
+              <p>$10.00</p>
+
+              <img class="icon" src="img/trash.png" alt="" data-eliminar />
+            </div>
+          </li>
+           <li class="card">
+            <img
+              class="img-product"
+              src="https://i.ebayimg.com/thumbs/images/g/usgAAOSwqCdey-61/s-l640.jpg"
+              alt=""
+            />
+            <p>Sueter</p>
+            <div class="card-sub">
+              <p>$10.00</p>
+
+              <img class="icon" src="img/trash.png" alt="" data-eliminar />
+            </div>
+          </li>
+           <li class="card">
+            <img
+              class="img-product"
+              src="https://i.ebayimg.com/thumbs/images/g/usgAAOSwqCdey-61/s-l640.jpg"
+              alt=""
+            />
+            <p>Sueter</p>
+            <div class="card-sub">
+              <p>$10.00</p>
+
+              <img class="icon" src="img/trash.png" alt="" data-eliminar />
+            </div>
+          </li>
+           <li class="card">
+            <img
+              class="img-product"
+              src="https://i.ebayimg.com/thumbs/images/g/usgAAOSwqCdey-61/s-l640.jpg"
+              alt=""
+            />
+            <p>Sueter</p>
+            <div class="card-sub">
+              <p>$10.00</p>
+
+              <img class="icon" src="img/trash.png" alt="" data-eliminar />
+            </div>
+          </li>
+           <li class="card">
+            <img
+              class="img-product"
+              src="https://i.ebayimg.com/thumbs/images/g/usgAAOSwqCdey-61/s-l640.jpg"
+              alt=""
+            />
+            <p>Sueter</p>
+            <div class="card-sub">
+              <p>$10.00</p>
+
+              <img class="icon" src="img/trash.png" alt="" data-eliminar />
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="agregarproductos">
+        <h1>AGREGAR PRODUCTO:</h1>
+
+        <form class="container__formulario" data-formulario>
+          <div class="formulario__campo">
+            <input
+              name="url"
+              class="campo__escrita"
+              required
+              placeholder="nombre..."
+              id="url"
+              data-nombre
+            />
+          </div>
+
+          <div class="formulario__campo">
+            <input
+              name="titulo"
+              class="campo__escrita"
+              required
+              placeholder="precio..."
+              id="titulo"
+              data-precio
+            />
+          </div>
+
+          <div class="formulario__campo">
+            <input
+              name="imagem"
+              class="campo__escrita"
+              required
+              placeholder="imagen..."
+              id="imagem"
+              data-imagen
+            />
+          </div>
+          <div class="botones">
+            <input
+              style="color: white"
+              class="formulario__boton"
+              type="submit"
+            />
+
+            <input
+              style="background-color: white"
+              class="formulario__boton"
+              type="submit"
+              value="Limpiar"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="header-footer">
+        <img src="img/logo.png" alt="logo" />
+        <h1 class="headertittle">El closet de Legive</h1>
+      </div>
+
+      <p>DESARROLLADO POR LEYLA VASQUEZ</p>
+    </footer>
+    <script src="/js/mostrarProductos.js" type="module"></script>
+    <script src="/js/crearProducto.js" type="module"></script>
+  </body>
+</html>
