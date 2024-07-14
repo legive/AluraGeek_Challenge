@@ -172,3 +172,18 @@ text-align: center;
     cursor: pointer;
 }
 
+/*Para hacer la pagina responsive cuando tenga un tamaño de telefono*/
+ @media screen and (max-width:500px) {
+.productos{
+  flex-direction:column-reverse;
+  gap: 20px;
+  flex-wrap: wrap;/*Para acomodar los botones en dos lineas cuando ya no quepan en el contenedor*/
+} 
+.listaproductos{
+  width: 100%;
+}
+.agregarproductos{
+  width: 100%;
+}
+ }
+
